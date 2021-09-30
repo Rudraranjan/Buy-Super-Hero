@@ -1,0 +1,43 @@
+.candidate-continer{
+    background-color: rgb(8, 54, 92);
+    height:550px;
+    margin: 20px;
+    border-radius:  15px;
+    text-align: center;
+  
+}
+.candidate-continer img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin-top: 20px;
+    
+}
+.candidate-continer h1{
+    color: rgb(250, 184, 98);
+    
+}
+.candidate-continer h3{
+    color: rgb(255, 255, 255);  
+     
+}
+.btn-cart{
+    background-color: rgb(177, 225, 253);
+    color: black;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.btn-cart:hover{
+    background-color: rgb(124, 255, 72);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
