@@ -6,6 +6,7 @@ import Shop from './Component/Shop/Shop';
 function App() {
   return (
     <div>
+      {/* Call header & shop */}
       <Header></Header>
       <Shop></Shop>
     </div>

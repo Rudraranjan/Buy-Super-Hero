@@ -3,8 +3,9 @@
     color: white;
     text-align: center;
     border-radius: 10px;
-    height: 550px;
+    height: 1150px;
     margin-top: 20px;
+    margin-right: 20px;
 }
 .cart-container h1{
     font-size: 20px;

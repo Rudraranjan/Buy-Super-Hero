@@ -13,6 +13,9 @@ const Cart = (props) => {
              <h1>Total Candidates Select : {props.cart.length}</h1>
              <h1>Total Salary of Candidates : {total}</h1>
              <h3>Candidate Name : </h3>
+
+              {/* mapping for add name at cart */}
+
              <ul>
                  {cart.map(candidate =><li className='li'>{candidate.name}</li>)}
              </ul>

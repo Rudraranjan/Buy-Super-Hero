@@ -5,14 +5,20 @@ import './Shop.css'
 
 const Shop = () => {
 
+     {/* use state call here */}
+
     const [candidates, setCandidates] = useState([]);
     const [cart, setCart]=useState([]);
+
+    {/* Fetch data here */}
 
     useEffect(()=>{
         fetch('./mydata.JSON')
         .then(res => res.json())
         .then(data=> setCandidates(data))
     },[])
+
+    {/* handeling cart on cklick code */}
 
     const handleToCart = (candidate) => {
         const newCart = [...cart,candidate];
@@ -21,7 +27,9 @@ const Shop = () => {
     return (
         <div className='shop-container'>
             <div className='candidate-container'>
-                {/* <h1>All Candidates Details : {candidates.length}</h1> */}
+
+                {/*candidate data maping here*/}
+
                 {
                     candidates.map(candidate => <Candidates 
                         key={candidate.key} 
