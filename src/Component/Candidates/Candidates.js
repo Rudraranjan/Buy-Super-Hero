@@ -14,7 +14,8 @@ const Candidates = (props) => {
              <h3>Conatct No : {phoneNumber}</h3>
              <br />
              <br />
-             <button className='btn-cart'>Add To Cart</button>
+             <button onClick={() => props.handleToCart(props.candidate)}              
+             className='btn-cart'>Add To Cart</button>
 
         </div>
     );

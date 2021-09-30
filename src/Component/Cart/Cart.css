@@ -1,0 +1,18 @@
+.cart-container{
+    background-color: rgb(8, 74, 77);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    height: 550px;
+    margin-top: 20px;
+}
+.cart-container h1{
+    font-size: 20px;
+}
+.cart-container h3{
+    color: rgb(255, 230, 0);
+}
+.li{
+    font-weight: 600;
+    font-size: 20px;
+}
