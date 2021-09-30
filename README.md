@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [My Apps](assignment-8-employee.netlify.app).
+This project was bootstrapped with [My Apps](https://assignment-8-employee.netlify.app/).
 
 ## Available Scripts
 
